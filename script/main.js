@@ -256,6 +256,15 @@ const animationTimeline = () => {
       zIndex: "-1",
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
+    .from(
+      ".qr-code",
+      0.7,
+      {
+        opacity: 0,
+        y: 10,
+      },
+      "+=0.5"
+    )
     .to(
       ".last-smile",
       0.5,

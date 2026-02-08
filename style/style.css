@@ -239,6 +239,12 @@ body {
   max-width: 150px;
   height: auto;
   display: inline-block;
+  opacity: 0;
+}
+
+.girl-dp {
+  max-width: 200px;
+  height: auto;
 }
 
 /* Media Queries */
