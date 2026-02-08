@@ -233,6 +233,14 @@ body {
   cursor: pointer;
 }
 
+.qr-code {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 150px;
+  height: auto;
+  display: inline-block;
+}
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
